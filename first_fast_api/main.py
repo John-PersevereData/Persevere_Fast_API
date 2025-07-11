@@ -35,6 +35,13 @@ db: List[User] = [
         gender=Gender.male,
         roles=[Role.admin, Role.user],
     ),
+    User(
+        id=uuid4(),
+        first_name="Test",
+        last_name="User",
+        gender=Gender.male,
+        roles=[Role.user],
+    ),
 ]
 
 
